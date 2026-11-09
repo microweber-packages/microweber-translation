@@ -151,12 +151,6 @@ parameters:
 			path: src/Models/TranslationKey.php
 
 		-
-			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$translator\.$#'
-			identifier: property.notFound
-			count: 1
-			path: src/Providers/TranslationServiceProvider.php
-
-		-
 			message: '#^Call to an undefined static method Illuminate\\Support\\Facades\\DB\:\:rollback\(\)\.$#'
 			identifier: staticMethod.notFound
 			count: 1
